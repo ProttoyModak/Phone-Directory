@@ -36,10 +36,17 @@ case $user in
 ;;
 
 5)
-
+break
 ;;
 
 *)
 
 ;;
 esac
+
+# Creating Exit Option
+read -p "Press Any Key For Continue or Press 5 To Exit: " exit
+
+if [ $exit -eq 5] ; then
+break
+fi
