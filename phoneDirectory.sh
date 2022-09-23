@@ -40,7 +40,7 @@ break
 ;;
 
 *)
-
+echo "INVALID OPARATION"
 ;;
 esac
 
