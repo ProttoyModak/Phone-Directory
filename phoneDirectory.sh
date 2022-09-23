@@ -22,8 +22,26 @@ do
     # Creating Test Case For Options
     case $user in
 
-        1)
+        1) # "New Contact" Option
+            echo "---------------"
+            echo "Add New Contact"
+            echo "---------------"
 
+            read -p "Enter Name     : " name
+            read -p "Enter Number   : " number
+            clear
+
+            # Showning Contact Information
+            echo "-----------------------"
+            echo "New Contact Information"
+            echo "-----------------------"
+            echo "Name  : $name"
+            echo "Number: $number"
+            echo ""
+            echo "Contact Added Successfully!!!"
+
+            # Adding Contact To Database
+            echo "$name : $number" >> logBook.log
         ;;
 
         2)
