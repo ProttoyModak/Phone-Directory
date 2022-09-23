@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Designing Landing Page
+# Adding Options to the Landing Page
 echo "--------------------------"
 echo "Welcome to Phone Directory"
 echo "--------------------------"
@@ -10,3 +10,36 @@ echo "2. Delete Contact"
 echo "3. Search Contact"
 echo "4. View Directory"
 echo "5. Exit"
+
+# Taking User Input For Selecting Option
+echo ""
+read -p "Enter your choise: " user
+clear
+
+# Creating Test Case For Options
+case $user in
+
+1)
+
+;;
+
+2)
+
+;;
+
+3)
+
+;;
+
+4)
+
+;;
+
+5)
+
+;;
+
+*)
+
+;;
+esac
