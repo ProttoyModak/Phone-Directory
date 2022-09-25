@@ -68,7 +68,10 @@ do
         ;;
 
         4)
-
+        echo "--------------"
+        echo "View Directory"
+        echo "--------------"
+        cat logBook.log
         ;;
 
         5)
