@@ -3,6 +3,7 @@
 # Creating Loop To Work Multiple Times
 while :
 do
+    clear
     # Adding Options to the Landing Page
     echo "--------------------------"
     echo "Welcome to Phone Directory"
@@ -45,7 +46,13 @@ do
         ;;
 
         2)
-
+            echo "--------------"
+            echo "Delete Contact"
+            echo "--------------"
+            read -p "Enter Name or Number to delete: " delete
+            sed -i -e "/$delete/d" logBook.log
+            clear
+            echo "Contact Deleted Successfully!!!"
         ;;
 
         3)
