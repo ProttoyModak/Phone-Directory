@@ -56,7 +56,15 @@ do
         ;;
 
         3)
-
+            echo "--------------"
+            echo "Search Contact"
+            echo "--------------"
+            read -p "Enter Name or Number to Search: " search
+            clear
+            echo "--------------"
+            echo "Search Result"
+            echo "--------------"
+            grep -i $search logBook.log
         ;;
 
         4)
